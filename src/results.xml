@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="results.xsd">
+    <student>
+        <login>cool</login>
+        <tests>
+            <test name="oop" date="2017-06-20"
+                  mark="8.5"/>
+            <test name="xml" date="2017-06-23"
+                  mark="7.3"/>
+            <test name="oop" date="2017-06-27"
+                  mark="9.4"/>
+            <test name="jdbc" date="2017-06-27"
+                  mark="6.8"/>
+            <test name="xml" date="2017-06-29"
+                  mark="7.9"/>
+        </tests>
+    </student>
+    <student>
+        <login>clever</login>
+        <tests>
+            <test name="oop" date="2017-06-27"
+                  mark="7.0"/>
+            <test name="collections" date="2017-06-28"
+                  mark="6.4"/>
+        </tests>
+    </student>
+</results>

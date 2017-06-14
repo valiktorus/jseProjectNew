@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="results">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="student">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="login" type="Login"/>
+                            <xs:element name="tests" type="Tests"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="Login">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z][^\W]{2,}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="Tests">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="test" type="Test"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Test">
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="date" type="xs:date"/>
+        <xs:attribute name="mark" type="Mark"/>
+    </xs:complexType>
+    <xs:simpleType name="Mark">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(\d\.\d|10\.0)"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

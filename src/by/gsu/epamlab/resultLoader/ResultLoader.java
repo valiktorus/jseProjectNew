@@ -4,7 +4,7 @@ import by.gsu.epamlab.connector.MySqlConnector;
 import by.gsu.epamlab.constants.Constants;
 import by.gsu.epamlab.constants.QueryConstants;
 import by.gsu.epamlab.exceptions.ConnectionException;
-import by.gsu.epamlab.resultDao.IResultDAO;
+import by.gsu.epamlab.dao.IResultDAO;
 import by.gsu.epamlab.beans.Result;
 
 import java.sql.*;

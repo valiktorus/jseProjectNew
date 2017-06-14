@@ -1,18 +1,14 @@
-package by.gsu.epamlab.resultDao.impl;
+package by.gsu.epamlab.dao.impl;
 
 import by.gsu.epamlab.beans.Result;
 import by.gsu.epamlab.constants.Constants;
 import by.gsu.epamlab.exceptions.SourceExceptions;
 import by.gsu.epamlab.factory.ResultFactory;
 import by.gsu.epamlab.handler.ResultHandler;
-import by.gsu.epamlab.resultDao.IResultDAO;
-import com.sun.org.apache.regexp.internal.RE;
-import org.xml.sax.SAXException;
+import by.gsu.epamlab.dao.IResultDAO;
 import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
-import java.io.IOException;
 import java.util.Iterator;
 
 public class ResultImplXml implements IResultDAO{

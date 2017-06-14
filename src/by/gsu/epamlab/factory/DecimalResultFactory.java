@@ -2,8 +2,8 @@ package by.gsu.epamlab.factory;
 
 import by.gsu.epamlab.beans.DecimalResult;
 import by.gsu.epamlab.beans.Result;
-import by.gsu.epamlab.resultDao.IResultDAO;
-import by.gsu.epamlab.resultDao.impl.ResultImplXml;
+import by.gsu.epamlab.dao.IResultDAO;
+import by.gsu.epamlab.dao.impl.ResultImplXml;
 
 import java.sql.Date;
 

@@ -1,9 +1,9 @@
-package by.gsu.epamlab.resultDao.impl;
+package by.gsu.epamlab.dao.impl;
 
 import by.gsu.epamlab.constants.Constants;
 import by.gsu.epamlab.exceptions.SourceExceptions;
 import by.gsu.epamlab.factory.ResultFactory;
-import by.gsu.epamlab.resultDao.IResultDAO;
+import by.gsu.epamlab.dao.IResultDAO;
 import by.gsu.epamlab.beans.Result;
 
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package by.gsu.epamlab.resultDao;
+package by.gsu.epamlab.dao;
 
 import by.gsu.epamlab.beans.Result;
 

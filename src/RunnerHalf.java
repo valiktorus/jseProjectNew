@@ -1,6 +1,5 @@
 import by.gsu.epamlab.factory.HalfResultFactory;
 import by.gsu.epamlab.factory.ResultFactory;
-import by.gsu.epamlab.logic.RunnerLogic;
 
 public class RunnerHalf {
     public static void main(String[] args) {

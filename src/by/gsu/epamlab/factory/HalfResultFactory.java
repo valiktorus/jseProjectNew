@@ -3,8 +3,8 @@ package by.gsu.epamlab.factory;
 
 import by.gsu.epamlab.beans.HalfResult;
 import by.gsu.epamlab.beans.Result;
-import by.gsu.epamlab.resultDao.IResultDAO;
-import by.gsu.epamlab.resultDao.impl.ResultImplCsv;
+import by.gsu.epamlab.dao.IResultDAO;
+import by.gsu.epamlab.dao.impl.ResultImplCsv;
 
 import java.sql.Date;
 

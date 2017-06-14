@@ -1,5 +1,3 @@
-package by.gsu.epamlab.logic;
-
 import by.gsu.epamlab.beans.Result;
 import by.gsu.epamlab.connector.MySqlConnector;
 import by.gsu.epamlab.constants.Constants;
@@ -7,7 +5,7 @@ import by.gsu.epamlab.constants.QueryConstants;
 import by.gsu.epamlab.exceptions.ConnectionException;
 import by.gsu.epamlab.exceptions.SourceExceptions;
 import by.gsu.epamlab.factory.ResultFactory;
-import by.gsu.epamlab.resultDao.IResultDAO;
+import by.gsu.epamlab.dao.IResultDAO;
 import by.gsu.epamlab.resultLoader.ResultLoader;
 
 import java.sql.Connection;

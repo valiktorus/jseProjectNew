@@ -1,6 +1,5 @@
 import by.gsu.epamlab.factory.DecimalResultFactory;
 import by.gsu.epamlab.factory.ResultFactory;
-import by.gsu.epamlab.logic.RunnerLogic;
 
 public class RunnerXml {
     public static void main(String[] args) {
